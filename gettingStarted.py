@@ -3,7 +3,7 @@
 ### Output - The right answer for the specific question.
 
 # We are originally given two questions in the template code.
-# All nine are at the bottom so add them (in order) to welcome_assignment_answers
+# All nine are at the bottom so add them to welcome_assignment_answers
 
 def welcome_assignment_answers(question):
     #Students do not have to follow the skeleton for this assignment.
@@ -23,7 +23,7 @@ def welcome_assignment_answers(question):
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-        answer = int(7)
+        answer = 4
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         answer = 3
     else: 
